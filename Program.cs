@@ -30,16 +30,20 @@ namespace LineProblem
             int Y2 = Convert.ToInt32(Console.ReadLine());
             double Length2 = Math.Sqrt(Math.Pow((X2 - X1), 2) + Math.Pow((Y2 - Y1), 2));
 
-            bool status = Length1.Equals(Length2);
-            if (status)
+            if (Length1.Equals(Length2))
             {
-                Console.WriteLine("Length of Line 1 = Length of Line2");
+                Console.WriteLine("Length of Line1 = Length of Line2 ");
+            }
 
+            else if (Length1 > Length2)
+            {
+                Console.WriteLine("Length of Line1  is Greater Than Length of Line2");
             }
             else
             {
-                Console.WriteLine("Length of Line 1 is not equal to Line 2");
+                Console.WriteLine("Length of Line1  is Less Than Length of Line2");
             }
+
 
             Console.WriteLine("The Length of Line1 is " + Length1);
             Console.WriteLine("The Length of Line2 is " + Length2);
