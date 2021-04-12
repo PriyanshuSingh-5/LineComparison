@@ -1,0 +1,16 @@
+C:\Users\K.R.DHASHNIGA\source\repos\LineProblem\LineProblem\bin\Debug\net5.0\LineProblem.exe
+C:\Users\K.R.DHASHNIGA\source\repos\LineProblem\LineProblem\bin\Debug\net5.0\LineProblem.deps.json
+C:\Users\K.R.DHASHNIGA\source\repos\LineProblem\LineProblem\bin\Debug\net5.0\LineProblem.runtimeconfig.json
+C:\Users\K.R.DHASHNIGA\source\repos\LineProblem\LineProblem\bin\Debug\net5.0\LineProblem.runtimeconfig.dev.json
+C:\Users\K.R.DHASHNIGA\source\repos\LineProblem\LineProblem\bin\Debug\net5.0\LineProblem.dll
+C:\Users\K.R.DHASHNIGA\source\repos\LineProblem\LineProblem\bin\Debug\net5.0\ref\LineProblem.dll
+C:\Users\K.R.DHASHNIGA\source\repos\LineProblem\LineProblem\bin\Debug\net5.0\LineProblem.pdb
+C:\Users\K.R.DHASHNIGA\source\repos\LineProblem\LineProblem\obj\Debug\net5.0\LineProblem.csprojAssemblyReference.cache
+C:\Users\K.R.DHASHNIGA\source\repos\LineProblem\LineProblem\obj\Debug\net5.0\LineProblem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\K.R.DHASHNIGA\source\repos\LineProblem\LineProblem\obj\Debug\net5.0\LineProblem.AssemblyInfoInputs.cache
+C:\Users\K.R.DHASHNIGA\source\repos\LineProblem\LineProblem\obj\Debug\net5.0\LineProblem.AssemblyInfo.cs
+C:\Users\K.R.DHASHNIGA\source\repos\LineProblem\LineProblem\obj\Debug\net5.0\LineProblem.csproj.CoreCompileInputs.cache
+C:\Users\K.R.DHASHNIGA\source\repos\LineProblem\LineProblem\obj\Debug\net5.0\LineProblem.dll
+C:\Users\K.R.DHASHNIGA\source\repos\LineProblem\LineProblem\obj\Debug\net5.0\ref\LineProblem.dll
+C:\Users\K.R.DHASHNIGA\source\repos\LineProblem\LineProblem\obj\Debug\net5.0\LineProblem.pdb
+C:\Users\K.R.DHASHNIGA\source\repos\LineProblem\LineProblem\obj\Debug\net5.0\LineProblem.genruntimeconfig.cache
