@@ -4,45 +4,66 @@ namespace LineProblem
 {
     class Program
     {
-		const int EmpWagePerHr = 20;
-		const int Num_Of_Working_Days = 20;
-		const int Max_Working_Hrs = 100;
-		const int Is_FullTime = 1, Is_PartTime = 2;
-		public static int computeEmpWage()
-		{
-			int EmpHrs = 0, EmpWage = 0, TotalHrs = 0, WorkingDays = 0;
-			while (TotalHrs < Max_Working_Hrs && WorkingDays < Num_Of_Working_Days)
-			{
-				WorkingDays++;
-				Random random = new Random();
-				int empCheck = random.Next(1, 3);
-				switch (empCheck)
-				{
-					case Is_FullTime:
-						EmpHrs = 8;
-						Console.WriteLine("Employee is Full Time");
-						break;
-					case Is_PartTime:
-						EmpHrs = 4;
-						Console.WriteLine("Employee is Part Time");
-						break;
-					default:
-						EmpHrs = 0;
-						Console.WriteLine("Default Value");
-						break;
-				}
-				TotalHrs = TotalHrs + EmpHrs;
-				Console.WriteLine(" Day : " + WorkingDays + " Employee Hrs : " + TotalHrs);
-			}
-			EmpWage = EmpHrs * EmpWagePerHr;
-			Console.WriteLine("Total Emp Wages = " + EmpWage);
-			return EmpWage;
-		}
-		static void Main(string[] args)
-		{
-			Console.WriteLine("welcome to employee Program");
-			computeEmpWage();
-		}
-	}
+        static void Main(string[] args)
+        {
+            double x1, x2, y1, y2;
+
+            Console.WriteLine("Enter co-ordinates of First Line ");
+            Console.WriteLine("Enter the value of x1:");      //enter the input x1
+            x1 = Convert.ToDouble(Console.ReadLine());         //Convert into Int with the help of convert.ToInt32() 
+            Console.WriteLine("Enter the value of x2:");
+            x2 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter the value of y1:");      //Enter the value y1
+            y1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter the value of y2:");
+            y2 = Convert.ToDouble(Console.ReadLine());
+
+            double Length1 = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2)); //apply formula
+
+            Console.WriteLine("Enter co-ordinates of Second Line ");
+            Console.WriteLine("Enter the value of x1:");      //enter the input x1
+            x1 = Convert.ToDouble(Console.ReadLine());         //Convert into Int with the help of convert.ToInt32() 
+            Console.WriteLine("Enter the value of x2:");
+            x2 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter the value of y1:");      //Enter the value y1
+            y1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter the value of y2:");
+            y2 = Convert.ToDouble(Console.ReadLine());
+
+            double Length2 = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2)); //apply formula
+            int compare = Length1.CompareTo(Length2); //use compareto method
+            Boolean equal = Length1.Equals(Length2);
+
+
+            if (Length1.CompareTo(Length2) == 0)
+            {
+                // Console.WriteLine("By Comparing the Both Lines are Same");
+
+                if (Length1.Equals(Length2) == true)
+                {
+                    Console.WriteLine("By Comparing the Both Lines are Same");
+
+                    Console.WriteLine("True");
+                }
+                //else
+                // {
+
+                //  Console.WriteLine("False");
+                // }
+
+            }
+            else
+            {
+                Console.WriteLine("Lines are not equal");
+            }
+
+            Console.WriteLine("The Length of Line1 is  " + Length1);  //finaly print output
+            Console.WriteLine("The Length of Line2 is  " + Length2);  //finaly print output
+            Console.Read();
+
+        }
+    }
 }
+
+
 
