@@ -45,11 +45,7 @@ namespace LineProblem
 
                     Console.WriteLine("True");
                 }
-                //else
-                // {
-
-                //  Console.WriteLine("False");
-                // }
+                
 
             }
             else
